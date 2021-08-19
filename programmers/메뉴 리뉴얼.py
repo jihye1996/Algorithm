@@ -8,7 +8,7 @@ def solution(orders, course):
             order_combs.extend(combinations(sorted(order), c))
 
         most_order = collections.Counter(order_combs).most_common() #return list
-        print(most_order)
+        #print(most_order)
         answer += [''.join(v) for v, c in most_order if 1 <  c and c == most_order[0][1]]
     return sorted(answer)
 '''
