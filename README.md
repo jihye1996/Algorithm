@@ -1,3 +1,3 @@
 # Algorithm
 
-### Algorithm Study
+### Algorithm Study Baekjoon, Programmers
