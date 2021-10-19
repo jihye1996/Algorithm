@@ -1,6 +1,13 @@
-# 2021.01.19: 수정필요
 from collections import defaultdict
 import heapq
+import sys 
+input = sys.stdin.readline 
+
+'''
+3, 4 번 라인을 사용해서 N번의 반복문을 돌 때 속도 개선 가능
+N (= 10,000,000) 기준, readline 없이 실행하면 약 12초, readline 사용 시 4초로 단축 가능
+ref: https://www.acmicpc.net/blog/view/56
+'''
 
 INF = int(1e9)
 N = int(input())
